@@ -4,6 +4,8 @@ import Welcome from "./components/Welcome";
 import Counter from "./components/Counter";
 import Timer from "./components/Timer";
 import Message from "./components/Message";
+import LoginPanel from "./components/Loginpanel";
+
 import './App.css'
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
       <br/>
       <br/>
       <Message></Message>
+      <LoginPanel/>
     </div>
   )
 }
