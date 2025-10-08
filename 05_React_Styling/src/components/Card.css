@@ -1,0 +1,26 @@
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    max-width: 300px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.card p {
+    color: #555;
+}
+
+.card button {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-top: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}

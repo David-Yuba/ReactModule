@@ -1,4 +1,4 @@
-export default function PizzaDoughRadio({HTMLid, name, options,label, required, valuePointer, valueSet, errorPointer, errorSet }){
+export default function PizzaDoughRadio({HTMLid, name, options,label, valueSet}){
 
     function updateValue(e){
         valueSet((v)=>({...v, [e.target.name]: e.target.value}));

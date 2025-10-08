@@ -5,6 +5,7 @@ import Counter from "./components/Counter";
 import Timer from "./components/Timer";
 import Message from "./components/Message";
 import LoginPanel from "./components/Loginpanel";
+import UsersList from "./components/UserList";
 
 import './App.css'
 
@@ -25,6 +26,10 @@ function App() {
       <br/>
       <Message></Message>
       <LoginPanel/>
+      <div>
+        <h2>List Rendering</h2>
+        <UsersList/>
+      </div>
     </div>
   )
 }

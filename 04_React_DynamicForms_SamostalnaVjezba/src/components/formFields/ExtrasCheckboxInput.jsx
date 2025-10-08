@@ -1,4 +1,4 @@
-export default function ExtrasCheckboxInput({HTMLid, name, options,label, required, valuePointer, valueSet, errorPointer, errorSet }){
+export default function ExtrasCheckboxInput({HTMLid, name, options,label, valuePointer, valueSet}){
 
     function updateValue(e){
         let ex = valuePointer;

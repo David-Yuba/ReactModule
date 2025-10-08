@@ -1,0 +1,26 @@
+.card {
+    background-color: #f0f8ff;
+    border: 1px solid #aaa;
+    padding: 16px;
+    border-radius: 12px;
+    max-width: 300px;
+}
+
+.title {
+    font-size: 22px;
+    color: darkblue;
+}
+
+.text {
+    color: #ddd;
+}
+
+.button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-top: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}

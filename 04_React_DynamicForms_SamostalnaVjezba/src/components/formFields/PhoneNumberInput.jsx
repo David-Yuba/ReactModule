@@ -1,4 +1,4 @@
-export default function PhoneNumberInput({HTMLid, label, name, required, validation, valuePointer, valueSet, errorPointer, errorSet}){
+export default function PhoneNumberInput({HTMLid, label, name, required, valuePointer, valueSet, errorPointer, errorSet}){
 
     function updateValue(e){
         valueSet((v)=>({...v, [e.target.name]: e.target.value}));
